@@ -20,16 +20,8 @@ public class Snake {
         return snake;
     }
 
-    public void setSnake(List<SnakeUnit> snake) {
-        this.snake = snake;
-    }
-
     public int getSpeed() {
         return speed;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
     }
     
     public void increaseSpeed(){
